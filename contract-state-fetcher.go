@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-const requestURL = "https://eos.greymass.com/v1/chain/get_account"
+const requestURL = "https://eos-node.upland.me/v1/chain/get_account"
 
 type requestStateBody struct {
 	ContractName string `json:"account_name"`
